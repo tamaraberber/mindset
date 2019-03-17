@@ -1,0 +1,28 @@
+
+body{
+  background-color: 	#FF1493;
+}
+
+a{
+  text-decoration: none
+}
+
+li{
+list-style: none;
+text-align: center;
+}
+
+p{
+color: yellow;
+text-align: center;
+font-family: 'Sniglet', cursive;
+font-size: 50pt;
+line-height: 50pt;
+}
+
+.list{
+color: blue;
+font-family: 'Sniglet', cursive;
+font-size: 20pt;
+line-height: 20pt
+}
