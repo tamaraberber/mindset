@@ -14,15 +14,13 @@ a{
 .hometitle{
   text-align: center;
 font-family: 'Sniglet', cursive;
-font-size: 175pt;
-line-height: 40pt
+font-size: 160px;
 }
 
 .homesubtitle{
   text-align: center;
 font-family: 'Sniglet', cursive;
 font-size: 30pt;
-line-height: 40pt;
 color: #f200d5
 
 }
