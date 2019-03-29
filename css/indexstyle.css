@@ -4,23 +4,41 @@
 }
 
 a{
-  text-decoration: none
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
 }
 
 .title{
-  color: orange
+  color: orange;
 }
 
 .hometitle{
   text-align: center;
 font-family: 'Sniglet', cursive;
 font-size: 160px;
+margin-top: 2em;
 }
 
 .homesubtitle{
   text-align: center;
+  vertical-align: center;
 font-family: 'Sniglet', cursive;
 font-size: 30pt;
-color: #f200d5
+color: #f200d5;
+margin-left: 4em;
+margin-right: 4em;
+}
 
+
+#owl{
+  position: absolute;
+}
+
+#bob {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
