@@ -8,7 +8,7 @@ a{
 }
 
 a:hover{
-  color: yellow;
+  color: red;
 }
 
 .title{
@@ -37,17 +37,18 @@ margin-right: 4em;
   vertical-align: center;
 font-family: 'Sniglet', cursive;
 font-size: 20pt;
-color: green;
+color: #54ff9f;
 margin-left: 4em;
 margin-right: 4em;
 }
 
 #owl{
   position: absolute;
+  vertical-align: top;
 }
 
 #bob {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20;
+  right: 30;
 }
