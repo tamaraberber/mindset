@@ -32,6 +32,15 @@ margin-left: 4em;
 margin-right: 4em;
 }
 
+.homexplanation{
+  text-align: center;
+  vertical-align: center;
+font-family: 'Sniglet', cursive;
+font-size: 20pt;
+color: green;
+margin-left: 4em;
+margin-right: 4em;
+}
 
 #owl{
   position: absolute;
