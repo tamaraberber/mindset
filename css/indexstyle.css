@@ -42,13 +42,38 @@ margin-left: 4em;
 margin-right: 4em;
 }
 
-#owl{
+.animated.bounce {
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  }
+
+#first {
   position: absolute;
   vertical-align: top;
 }
 
-#bob {
+#second {
   position: absolute;
-  top: 20;
-  right: 30;
+  vertical-align: middle;
+}
+
+#third {
+  position: absolute;
+  vertical-align: bottom;
+}
+
+#fourth {
+  position: absolute;
+vertical-align: top;
+}
+
+#fifth {
+  position: absolute;
+  vertical-align: center;
+}
+
+#sixth {
+  position: absolute;
+  vertical-align: center;
 }
