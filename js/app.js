@@ -56,7 +56,7 @@ $(function () {
 
   // quotationsImg, getItem and setItem,
   $('body').on('click', '.quotationsImg', function() {
-    var thing = $('input').val();
+    var thing = $('textarea').val();
     debugger
     var currentThings = JSON.parse(window.localStorage.getItem('quotations')) || []
     currentThings.push(thing)
