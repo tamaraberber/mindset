@@ -55,7 +55,7 @@ margin-right: 4em;
 
 #second {
   position: absolute;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 #third {
@@ -74,6 +74,11 @@ vertical-align: top;
 }
 
 #sixth {
+  position: absolute;
+  vertical-align: center;
+}
+
+#seventh {
   position: absolute;
   vertical-align: center;
 }
