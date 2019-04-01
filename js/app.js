@@ -11,6 +11,14 @@ $('html').on('click', function(e) {
   }
 });
 
+$(document).ready(function() {
+    $(".hometitle").mouseenter(function() {
+        $("body").css("background-color","yellow");
+    });
+    $(".hometitle").mouseleave(function() {
+        $("body").css("background-color","#006cf1");
+    });
+});
 
 // var owl = document.getElementById("owl");
 // var bob = document.getElementById("bob");
