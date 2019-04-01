@@ -2,6 +2,15 @@ $(function () {
   $('[data-toggle="popover"]').popover()
 })
 
+//dismiss popovers
+
+$('html').on('click', function(e) {
+  if (typeof $(e.target).data('original-title') == 'undefined' &&
+     !$(e.target).parents().is('.popover.in')) {
+    $('[data-original-title]').popover('hide');
+  }
+});
+
 
 // var owl = document.getElementById("owl");
 // var bob = document.getElementById("bob");
