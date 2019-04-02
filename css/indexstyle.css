@@ -27,8 +27,6 @@ h1:hover  {
       color:red;
 }
 
-h1:first-child h1 {  background:yellow !important;}
-
 
 
 
@@ -92,35 +90,11 @@ margin-right: 4em;
 }
 
 #first {
-  padding-right: 20%;
+  padding-left: 5%;
 }
 
 #second {
 padding-left: 30%;
-}
-
-#third {
-padding-right:50%;
-}
-
-#fourth {
-padding-left: 5%;
-}
-
-#fifth {
-padding-right: 80%;
-}
-
-#sixth {
-padding-left: 60%;
-}
-
-#seventh {
-padding-right: 60%;
-}
-
-#eight {
-padding-left: 15%;
 }
 
 .imgwrapper{
