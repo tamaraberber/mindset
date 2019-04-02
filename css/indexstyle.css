@@ -18,7 +18,7 @@ h1{
   text-align: center;
 font-family: 'Sniglet', cursive;
 font-size: 160px;
-margin-top: 2em;
+margin-top: 1em;
 color: orange;
 }
 
@@ -43,11 +43,11 @@ margin-right: 4em;
 .homexplanation{
   text-align: center;
   vertical-align: center;
-font-family: 'Sniglet', cursive;
-font-size: 20pt;
-color: #54ff9f;
-margin-left: 4em;
-margin-right: 4em;
+  font-family: 'Sniglet', cursive;
+  font-size: 20pt;
+  color: #54ff9f;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 .imgclass{
@@ -89,49 +89,55 @@ margin-right: 4em;
   100% {transform: rotate(0deg);}
 }
 
-#first {
-  padding-left: 5%;
-}
-
-#second {
-padding-left: 30%;
-}
-
 .imgwrapper{
+  position: absolute;
   text-align: center;
 }
 
+#first {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+}
 
-/*display: inline-block;*/
+#second {
+  position: absolute;
+  bottom: 300px;
+  left: 1000px;
+}
 
-
-/*
 #third {
   position: absolute;
-  vertical-align: bottom;
+  top: 0px;
+  left: 350px;
 }
 
 #fourth {
   position: absolute;
-vertical-align: top;
+  top: 150px;
+  left: 600px;
 }
 
 #fifth {
   position: absolute;
-  vertical-align: center;
+  top: 0px;
+  left: 800px;
 }
 
 #sixth {
   position: absolute;
-  vertical-align: center;
+  top: 0px;
+  left: 100px;
 }
 
 #seventh {
   position: absolute;
-  vertical-align: center;
+  bottom: 0px;
+  left: 1250px;
 }
 
 #eight {
   position: absolute;
-  vertical-align: center;
-} */
+  bottom: 300px;
+  left: 600px; 
+}
