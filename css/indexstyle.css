@@ -6,6 +6,15 @@ body{
 }
 
 
+.btn{
+  font-family: 'Sniglet', cursive;
+  background-color: white;
+  color: purple;
+}
+
+.btn-warning{
+    font-family: 'Sniglet', bold;
+}
 
 a{
   text-decoration: none;
